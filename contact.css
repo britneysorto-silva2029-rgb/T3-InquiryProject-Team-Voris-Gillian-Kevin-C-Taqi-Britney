@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #222;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 2px solid #ccc;
+    background: white;
+}
+
+.logo-box {
+    width: 70px;
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    background: black;
+    color: white;
+}
+
+/* Contact Title */
+.contact-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.contact-title h1 {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 15px 50px;
+    font-size: 40px;
+}
+
+/* Section Headers */
+.employees-section h2,
+.owners-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+.employees-section,
+.owners-section {
+    text-align: center;
+    margin: 50px 20px;
+}
+
+/* Employee Grid */
+.employee-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.person-card {
+    text-align: center;
+}
+
+.image-placeholder {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.image-placeholder::before,
+.image-placeholder::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: black;
+    top: 50%;
+}
+
+.image-placeholder::before {
+    transform: rotate(45deg);
+}
+
+.image-placeholder::after {
+    transform: rotate(-45deg);
+}
+
+/* Owner Section */
+.owner-grid {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+.large-image-placeholder {
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.large-image-placeholder::before,
+.large-image-placeholder::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: black;
+    top: 50%;
+}
+
+.large-image-placeholder::before {
+    transform: rotate(35deg);
+}
+
+.large-image-placeholder::after {
+    transform: rotate(-35deg);
+}
+
+.person-card p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Help Box */
+.help-box {
+    width: 70%;
+    margin: 50px auto;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    font-size: 18px;
+}
