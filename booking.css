@@ -4,37 +4,42 @@
 }
 
 .imageone{
-    width:7vw;
+    width:9vw;
     height:13vh;
-    display:flex;
-    align-items:flex-start;
-}
-
-.middleimage{
-    width:25vw;
-    height:30vh;
-}
-
-.navbar{
-    height:20%;
-    width:25%;
-    display:flex;
-    flex:1;
-    justify-content:flex-end;
-    align-items:stretch;
     
 }
 
-.text{
-    display:flex;
-    justify-content:center;
-
-
+.middleimage{
+    width:45vw;
+    height:45vh;
 }
 
-.secondtext{
+.navbar{
     display:flex;
-    flex-direction:row;
+    gap:10px;
+    height:40px;
+    
+    
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    width:100%;
+}
+    
+    
+
+h1{
+    text-align:center;
+    width:100%;
+    margin:20px;
+}
+
+
+.secondtext{
+    font-size:3rem;
     
 }
 
@@ -46,7 +51,52 @@ footer{
 
 .thirdsection{
     display:flex;
-    height:35%;
-    width:45%;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    width:60%;
     
 }
+
+.contactbuttons{
+    width:50%;
+    padding:10px;
+    font-size:1rem;
+    justify-content:center;
+}
+
+.submitbutton{
+    width:100%
+}
+
+.bookbutton{
+    width:25%;
+    height:45%;
+    display:block;
+    margin:25px;
+    font-size:3rem;
+    color:white;
+    background-color:navy;
+    border:solid navy 3px;
+    display:inline-block;
+    margin:20px;
+}
+
+body{
+    background-color:azure;
+}
+
+.imageandtext{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.smalltext{
+    font-size:2rem;
+    text-align:center;
+}
+
+.bigbutton{
+    text-align:center;
+}
+
