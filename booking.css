@@ -52,21 +52,21 @@ footer{
 .thirdsection{
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-between;
     width:60%;
     justify-content:center;
-    align-items:center;
+    
+
+
     
 }
 
 .contactbuttons{
-    width:50%;
+    width:45%;
     padding:10px;
     font-size:1rem;
-    justify-content:center;
-    align-items:center;
-    display:flex;
     background-color:rgb(169, 169, 242);
+    display:inline-block;
+    margin:5px;
     gap:10px;
 }
 
@@ -80,6 +80,7 @@ footer{
     font-size:2rem;
     display:inline-block;
     margin:20px;
+    border-style: groove blue;
     
 }
 
