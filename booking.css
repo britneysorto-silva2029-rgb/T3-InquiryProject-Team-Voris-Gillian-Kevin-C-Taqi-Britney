@@ -4,14 +4,14 @@
 }
 
 .imageone{
-    width:9vw;
+    width:6vw;
     height:13vh;
     
 }
 
 .middleimage{
-    width:45vw;
-    height:45vh;
+    width:50%;
+    height:45%;
 }
 
 .navbar{
@@ -45,7 +45,7 @@ h1{
 
 footer{
     color:blue;
-   font-size: 15px;
+   font-size:20px;
     
 }
 
@@ -54,6 +54,8 @@ footer{
     flex-wrap:wrap;
     justify-content:space-between;
     width:60%;
+    justify-content:center;
+    align-items:center;
     
 }
 
@@ -62,10 +64,21 @@ footer{
     padding:10px;
     font-size:1rem;
     justify-content:center;
+    align-items:center;
+    display:flex;
+    background-color:rgb(169, 169, 242);
+    gap:10px;
 }
 
 .submitbutton{
-    width:100%
+    width:50%;
+    height:3rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgb(0, 151, 181);
+    font-size:2rem;
+    
 }
 
 .bookbutton{
