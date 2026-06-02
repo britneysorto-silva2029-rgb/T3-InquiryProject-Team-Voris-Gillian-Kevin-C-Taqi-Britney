@@ -139,13 +139,7 @@ body {
     top: 50%;
 }
 
-.large-image-placeholder::before {
-    transform: rotate(35deg);
-}
 
-.large-image-placeholder::after {
-    transform: rotate(-35deg);
-}
 
 .person-card p {
     margin-top: 10px;
